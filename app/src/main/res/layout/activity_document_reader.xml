@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/bli_dark">
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Document Reader"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:paddingBottom="10dp"/>
+
+    <!-- Image Preview -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="Captured or Selected Image"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Recognized Text Display -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@android:color/white"
+        android:padding="8dp"
+        android:elevation="4dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/tvRecognizedText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recognized text will appear here..."
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:padding="8dp" />
+    </ScrollView>
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        style="@android:style/Widget.Material.ProgressBar.Large"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Capture & Select Image Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/btnCapture"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="Capture Image"
+            android:backgroundTint="#6200EE"
+            android:textColor="@android:color/white"
+            android:drawableLeft="@android:drawable/ic_menu_camera"
+            android:drawablePadding="10dp"/>
+
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="Select Image"
+            android:backgroundTint="#03DAC5"
+            android:textColor="@android:color/white"
+            android:drawableLeft="@android:drawable/ic_menu_gallery"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <!-- Read Text Button (Full Width) -->
+    <Button
+        android:id="@+id/btnReadText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Read Text"
+        android:backgroundTint="#FF5722"
+        android:textColor="@android:color/white"
+        android:drawableLeft="@android:drawable/ic_menu_compass"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Mic Button (Bottom Center) -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btn_mic"
+            android:layout_width="410dp"
+            android:layout_height="80dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:backgroundTint="#4CAF50"
+            android:contentDescription="Voice Command"
+            android:gravity="center"
+            android:src="@android:drawable/ic_btn_speak_now"
+            app:tint="@android:color/white" />
+    </FrameLayout>
+
+</LinearLayout>

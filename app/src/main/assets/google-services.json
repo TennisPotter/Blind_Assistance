@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "566529049128",
+    "project_id": "blindassistance-5d765",
+    "storage_bucket": "blindassistance-5d765.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566529049128:android:5a473a293bb6abf7436b1d",
+        "android_client_info": {
+          "package_name": "com.example.blindassistance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7xNyXkRWIXN3iyOVUVX7xKaYf8PrK4XY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

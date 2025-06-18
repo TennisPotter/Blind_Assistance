@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Blind Assistance</string>
+    <string name="detecting_objects">Detecting objects...</string>
+    <string name="detecting_object">Detecting objects...</string>
+    <string name="back_to_menu">Back to Menu</string>
+    <string name="detect_object">Detect Object</string>
+</resources>
