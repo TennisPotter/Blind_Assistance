@@ -1,4 +1,4 @@
-📱🧭 Blind Assistance Project
+📱🧭 Blind Assistance Application
 Empowering the visually impaired with AI-powered Object Detection, Voice Navigation, and Real-Time Voice Control.
 
 📌 Overview
@@ -42,26 +42,6 @@ Speech Recognition
 
 XML (UI Design)
 
-🗂️ Project Structure
-
-BlindAssistance/
-├── MobileApp/
-│   ├── app/
-│   │   ├── activities/
-│   │   │   ├── MainActivity.java
-│   │   │   ├── ObjectDetectionActivity.java
-│   │   │   ├── NavigationActivity.java
-│   │   │   └── VoiceAccessActivity.java
-│   │   ├── res/
-│   │   │   └── layout/
-│   │   │       └── activity_main.xml ...
-│   └── build.gradle
-│
-├--📸 Screenshots
-(Add screenshots of Object Detection, Navigation, Voice Command UI)
-
-
-
 🔨 Steps
 
 1. Clone the repo
@@ -90,10 +70,8 @@ The entire interface is optimized for non-visual interaction using voice and ges
 
 👥 Contributors
 Name : Tennis
-Purpose : College Final Year Projects
 
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+Purpose : College Final Year Projects
 
 ⭐ GitHub
 If this project helped you or inspired you
