@@ -49,25 +49,6 @@ XML (UI Design)
 3. Add your google-services.json
 4. Build and Run on Device
 
-pip install -r requirements.txt
-
-🎙️ Voice Commands
-Command	Action
-"Detect objects"	Starts camera & detects objects
-"Start navigation"	Opens NavigationActivity
-"Go to main menu"	Returns to home screen
-"Switch camera"	Front/Back toggle
-"Exit app"	Closes application
-
-⚙️ How It Works
-Object Detection is powered by ML Kit (mobile) and MobileNet SSD (web).
-
-Voice input is recognized using Android’s SpeechRecognizer and Web Speech API.
-
-Navigation is integrated with Google Maps and reads directions aloud.
-
-The entire interface is optimized for non-visual interaction using voice and gestures.
-
 👥 Contributors
 Name : Tennis
 
